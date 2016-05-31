@@ -64,12 +64,11 @@ dependencies {
     compile 'commons-logging:commons-logging:1.1.3'
     compile 'jaxen:jaxen:1.1.6'
     
-    compile 'com.ai.runner.util:runner-util:1.0.2-SNAPSHOT'
-    //支付中心
-    compile "com.ai.runner.center.pay:terminalorgrelquery:1.0-SNAPSHOT"
-    compile "com.ai.runner.center.pay:paycenter:1.0-SNAPSHOT"
-    compile "com.ai.runner.center.pay:tradequery:1.0-SNAPSHOT"
-    compile "com.ai.runner.center.pay:tenantinfoquery:1.0-SNAPSHOT"
+    compile 'com.ai.opt.sdk:opt-sdk:2.0-SNAPSHOT'
+    //集成单点登录
+	compile 'com.ai.opt.xss.filter:opt-xss-firewall:1.0-SNAPSHOT'
+	compile 'com.ai.opt.uni.session:opt-uni-session:2.0-SNAPSHOT'
+	compile 'com.ai.opt.sso.client:opt-sso-client:1.0.2-SNAPSHOT'
     
     //junit
     compile "junit:junit:4.12"

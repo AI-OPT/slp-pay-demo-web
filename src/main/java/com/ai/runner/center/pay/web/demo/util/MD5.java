@@ -5,7 +5,7 @@ import java.security.SignatureException;
 
 import org.apache.commons.codec.digest.DigestUtils;
 
-import com.ai.runner.base.exception.SystemException;
+import com.ai.opt.base.exception.SystemException;
 
 /** 
 * 功能：支付宝MD5签名处理核心文件，不需要修改
